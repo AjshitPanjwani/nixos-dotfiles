@@ -24,7 +24,7 @@
             backupFileExtension = "backup";
             
             sharedModules = [
-              catppuccin.homeManagerModules.catppuccin 
+              catppuccin.homeModules.catppuccin 
             ];
 
             users.alien = import ./home.nix;
