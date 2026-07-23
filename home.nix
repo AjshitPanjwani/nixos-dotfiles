@@ -39,4 +39,9 @@ in
     gcc 
   ];
 
+  catppuccin = {
+    enable = true;
+    flavor = "mocha";
+  };
+
 }
